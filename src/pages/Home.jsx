@@ -23,6 +23,9 @@ const Home = () => {
         <div>
             <Footer/>
         </div>
+        <div>
+          <Video/>
+        </div>
       
     </div>
   )
