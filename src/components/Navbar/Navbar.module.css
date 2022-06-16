@@ -1,5 +1,29 @@
 .navbar{
-    border: solid blue;
-    margin-top: 1px;
+    background-color: rgb(3,169,244);
+    color: white;
+    display: flex;
+    gap: 3%;
+    font-size: 20px;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: auto;
+}
 
-    }
+.navbar>div{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.navimg{
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.mainnav{
+    background-color: rgb(3,169,244);
+    width: 100%;
+   
+   
+}
