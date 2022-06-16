@@ -5,8 +5,11 @@
     gap: 3%;
     font-size: 20px;
     flex-wrap: wrap;
-    width: 1300px;
+    width: 98.5%;
     margin: auto;
+    position: fixed;
+    z-index: 1;
+    top: -5px;
 }
 
 .navbar>div{

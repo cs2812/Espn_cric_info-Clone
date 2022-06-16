@@ -3,11 +3,13 @@
     width: 1300px;
     
     margin: auto;
+    margin-top: 40px;
 }
 
 .live-slider>h1 {
     text-align: center;
     font-size: 15px;
+    
 
 }
 
@@ -16,23 +18,19 @@
 }
 
 #live-slider {
-
     background: rgb(2, 154, 224);
-    width: 1350px;
-    margin: auto;
     color: white;
-     
-     
+   
 }
 
 .slider-div {
     background-color: white;
-    border: 10px solid rgb(2, 154, 224);
+    border: 5px solid rgb(2, 154, 224);
     color: black;
     text-align: left;
     height: 180px;
     padding: 10px;
- 
+    border-radius: 10px;
     
     
 }

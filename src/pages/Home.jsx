@@ -8,18 +8,21 @@ import RightSideBar from '../components/RighSidebar/RightSideBar'
 import SeriesHome from '../Routes/SeriesHome/SeriesHome'
 import Video from '../Routes/Video/Video'
 import styles from "./home.module.css"
+
 const Home = () => {
   return (
     <div className={styles.container}>
         <div>
+           <Navbar/>
             <LiveScore/> 
-            <Navbar/>
+           
         </div>
         <div className={styles.homeflex} >
             <LeftSideBar/>
             <News/>
             <RightSideBar/>
         </div>
+        
         <div>
             <Footer/>
         </div>
