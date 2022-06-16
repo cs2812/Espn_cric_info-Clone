@@ -1,4 +1,66 @@
-.leftnews{
-    border: solid rgb(18, 208, 50);
+.leftnews {
+    /* border: solid rgb(18, 208, 50); */
     width: 80%;
-}
+    margin-left: 60px;
+  }
+  
+  .leftSide_1stdiv {
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 250px;
+    width: 280px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+  
+  .leftSide_2nddiv {
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 550px;
+    width: 280px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+  
+  .quickLink {
+    border: 1px solid white;
+    color: black;
+    border-radius: 20px;
+    height: 250px;
+    width: 280px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+  
+  .apps {
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 150px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+  
+  .socialmedia{
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 230px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
