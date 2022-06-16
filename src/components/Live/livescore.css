@@ -1,0 +1,50 @@
+.live-slider {
+
+    width: 1300px;
+    
+    margin: auto;
+    margin-top: 40px;
+}
+
+.live-slider>h1 {
+    text-align: center;
+    font-size: 15px;
+    
+
+}
+
+.slider-div-main {
+    display: flex;
+}
+
+#live-slider {
+    background: rgb(2, 154, 224);
+    color: white;
+   
+}
+
+.slider-div {
+    background-color: white;
+    border: 5px solid rgb(2, 154, 224);
+    color: black;
+    text-align: left;
+    height: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+.slider-div>h1 {
+    font-size: 10px;
+}
+
+.slider-div>h2 {
+    color:rgba(197, 0, 0, 0.658);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.highnav{
+    width: 300px;
+}

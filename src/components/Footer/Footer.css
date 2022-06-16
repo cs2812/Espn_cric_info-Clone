@@ -1,0 +1,25 @@
+#footer{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width:100%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    
+}
+
+.table-nav{
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    line-height: 40px;
+    
+}
+
+.table-nav>tr>td{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.table-nav>tr>th{
+    
+    font-size: 16px;
+}
