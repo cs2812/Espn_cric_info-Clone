@@ -1,0 +1,139 @@
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.V_firstdiv{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    /* border: solid; */
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.V_firstdiv_p{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.firstdivimg{
+    width: 60%;
+    height: 400px;
+    overflow: hidden;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.firstdivimg>img{
+
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+
+}
+.firstdivimg>img:hover{
+    transform: scale(1.06);
+
+}
+.firstdivimg>i{
+    position: absolute;
+    margin-left: -25%;
+    margin-top: 10%;
+    font-size: 70px;
+    color: rgb(160, 160, 209);
+}
+
+/* .art3Img1{
+    width: 100%;
+    height: 100px;
+    background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_240/esci/media/motion/2022/0612/dm_220612_INET_CRIC_indvsa2022_time_out_ind_batting_non-branded_GLOBAL/dm_220612_INET_CRIC_indvsa2022_time_out_ind_batting_non-branded_GLOBAL.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    border-radius: 15px;
+
+}
+.art3Img1:hover{
+    transform: scale(1.2);
+} */
+
+.Feat{
+    display: flex;
+    justify-content: space-between;
+}
+/* .VS{
+    border-radius: 15px;
+
+} */
+.V_secondDiv{
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+  
+
+}
+
+.V_secondDiv>div{
+    
+    width: 30%;
+}
+
+.VS1{
+    /* border:solid; */
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.VS1>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 1s;
+}
+.VS1>img:hover{
+        transform: scale(1.1);
+}
+.VS1>i{
+    position: absolute;
+    margin-left: -12%;
+    margin-top: 3%;
+    font-size: xxx-large;
+    color: rgb(110, 110, 137);;
+}
+.VS2{
+    /* border: solid; */
+    margin-top: -20px;
+}
+.VS2>p{
+    margin-top: -15px;
+}
+
+
+
+.VhtirdDiv{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+gap: 10px;
+}
+.VhtirdDiv>div{
+    box-sizing: border-box;
+    padding: 50px 30px;
+    /* border: solid; */
+    cursor: pointer;
+    height: 190px;
+    border-radius: 15px;
+    overflow: hidden;
+
+    -moz-box-shadow:    inset 0 0 20px #000000;
+   -webkit-box-shadow: inset 0 0 20px #000000;
+   box-shadow:         inset 0 0 20px #000000;
+
+   
+
+}
+.VT1>img{
+    width: 100%;
+    height: 100%;
+}

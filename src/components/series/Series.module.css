@@ -1,0 +1,420 @@
+/* Series Navbar-----------> */
+.Snavbar{
+    border: solid blueviolet;
+    display: flex;
+    gap: 20px;
+  height: 40px;
+  padding-left: 10px;
+   
+}
+.Snavbar>p{
+    margin-top: 6px;
+    margin-left: 10px;
+    color: rgb(56, 48, 48);
+}
+.Snavbar>p:hover{
+    color: rgb(125, 143, 235);
+    text-decoration: underline;
+}
+.Snavbar>h4{
+    margin-top: 6px;
+}
+
+/* Series Left side----------> */
+
+.Sleft{
+    /* border: solid brown; */
+    width: 80%;
+    padding: 10px 40px ;
+    box-sizing: border-box;
+}
+.SLshadow{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 10px;
+    padding: 10px 20px ;
+    box-sizing: border-box;
+}
+.SLshadow h3{
+    color: #03a9f4;
+    text-align: left;
+}
+.SLdiv1{
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #03a9f4;
+    height: 30px;
+    text-align: center;
+}
+.SLdiv1>div{
+    width: 50%;
+   padding-top: 2px;  
+   color: #03a9f4;  
+}
+
+.SLdiv1>div:nth-child(1){
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: solid #03a9f4; 
+    background-color: #03a9f4;
+    color: white
+}
+.SLdiv2{
+    margin-top: 10px;
+}
+.SLabout{
+    /* border: solid; */
+    text-align-last: left;
+}
+.SLabout>span{
+    font-size: 13px;
+    overflow: hidden;
+}
+.SLabout>span:nth-child(3){
+    font-size: 11px;
+}
+.SLfleg{
+    margin-top: 20px;
+}
+.SLfleg img{
+    width: 20px;
+    margin-top: 5px;
+}
+.SLfleg>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+}
+
+
+/* Series midle News----> */
+
+.Smide{
+    /* border: solid orange; */
+    width: 138%;
+    margin-left: -100px;
+
+}
+.SMshadow{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+.SMarticle1{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #000000; */
+    /* overflow: hidden; */
+    position: relative;
+}
+.SM_art1{
+    /* border: solid; */
+    overflow: hidden;
+    border-top-left-radius:15px ;
+border-top-right-radius: 15px;
+
+}
+.SM_art1 img {
+border-top-left-radius:15px ;
+border-top-right-radius: 15px;
+    width: 100%;
+    height: 100%;
+    transition: transform .5s, filter 1.5s ease-in-out;
+  }
+  .SM_art1:hover img {
+    transform: scale(1.1);
+  }
+
+.art1{
+    margin-top: -25px;
+    background-color: #000000;
+    color: white;
+    line-height: 30px;
+}
+.art2{
+    margin-top: -13px;
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 3px;
+}
+.art2>div{
+    box-sizing: border-box;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    font-size: small;
+    font-weight: bold;
+}
+.art2>div>span>i{
+color: #03a9f4;
+}
+.art2>div>span:hover{
+    color: #03a9f4;
+    cursor: pointer;
+}
+.art3{
+
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.art3div{
+    width: 100%;
+    height: 130px;
+    border-radius: 15px;
+    padding: 3PX;
+    line-height: 10px;
+
+}
+.art3div1{
+    overflow: hidden;
+    border-radius: 15px ;
+
+}
+.art3div span{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.art3div i{
+    color: #899faa;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.art3Img1{
+    width: 100%;
+    height: 100px;
+    background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_240/esci/media/motion/2022/0612/dm_220612_INET_CRIC_indvsa2022_time_out_ind_batting_non-branded_GLOBAL/dm_220612_INET_CRIC_indvsa2022_time_out_ind_batting_non-branded_GLOBAL.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    border-radius: 15px;
+
+}
+.art3Img1:hover{
+    transform: scale(1.2);
+}
+.art3Img2{
+    width: 100%;
+    height: 100px;
+    background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_240/esci/media/motion/2022/0612/dm_220612_INET_CRIC_indvsa2022_time_out_klaasen_non-branded_GLOBAL/dm_220612_INET_CRIC_indvsa2022_time_out_klaasen_non-branded_GLOBAL.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    border-radius: 15px;
+}
+.art3Img2:hover{
+    transform: scale(1.2);
+}
+.art3Img3{
+
+    width: 100%;
+    height: 100px;
+    background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_240/esci/media/motion/2022/0612/dm_220612_INET_CRIC_indvsa2022_time_out_ind_spin_non-branded_GLOBAL/dm_220612_INET_CRIC_indvsa2022_time_out_ind_spin_non-branded_GLOBAL.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    border-radius: 15px;
+
+}
+.art3Img3:hover{
+    transform: scale(1.2);
+}
+
+
+.SMarticle2{
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 1px 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 10px;
+}
+
+
+.SMA2_dvi1{
+    width: 100%;
+    height: 350px;
+    /* border: solid; */
+    border-radius: 14px;
+    overflow: hidden;
+
+}
+.SM_A2_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+
+    background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_720/esci/media/motion/2022/0609/dm_220609_INET_CRIC_indvsa2022_time_out_t1-dm_non-branded_GLOBAL/dm_220609_INET_CRIC_indvsa2022_time_out_t1-dm_non-branded_GLOBAL.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    /* border-radius: 10px; */
+
+}
+.SM_A2_img:hover{
+    transform: scale(1.05);
+}
+.SM_A2_img i{
+    color: #899faa;
+    cursor: pointer;
+    position: relative;
+    margin-top: 24%;
+    margin-left: 40%;
+    font-size: 70px;
+}
+.SMA2_line{
+    line-height: 1px;   
+    
+}
+
+.art4{
+
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.art4div{
+    width: 100%;
+    height: 130px;
+    border-radius: 15px;
+    padding: 3PX;
+    line-height: 10px;
+
+}
+.art4div1{
+    overflow: hidden;
+    border-radius: 15px ;
+
+}
+.art4div span{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.art4div i{
+    color: #899faa;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.art4Img1{
+    width: 100%;
+    height: 100px;
+    background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_240/lsci/db/PICTURES/CMS/340600/340659.6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    border-radius: 15px;
+
+}
+.art4Img1:hover{
+    transform: scale(1.2);
+}
+.art4Img2{
+    width: 100%;
+    height: 100px;
+    background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_240/esci/media/motion/2022/0610/dm_220610_indvssa_interview_nonbranded_ras2/dm_220610_indvssa_interview_nonbranded_ras2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    border-radius: 15px;
+}
+.art4Img2:hover{
+    transform: scale(1.2);
+}
+.art4Img3{
+
+    width: 100%;
+    height: 100px;
+    background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_240/esci/media/motion/2022/0610/dm_220610_indvssa_interview_nonbranded_ras1/dm_220610_indvssa_interview_nonbranded_ras1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    border-radius: 15px;
+
+}
+.art4Img3:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* Series Rigth side news-----> */
+
+.Sright{
+    /* border: solid orchid; */
+    width: 80%;
+    margin-left: 80px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+.R_Task1{
+box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+border-radius: 10px;
+
+}
+.Rdiv1{
+border-bottom: solid rgb(189, 181, 181);
+box-sizing: border-box;
+padding-top: 3px;
+padding-left: 10px;
+margin-top: 9px;
+
+
+}
+.Rdiv2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.Rimg{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 10px;
+}    
+.Rimg>img{
+    width: 100%;
+    height: 100%;
+}
+.RimgDetails{
+    line-height: 10px;
+
+}
+.RimgDetails>p:first-child{
+    font-weight: bold;
+    font-size: smaller;
+    color: rgb(83, 71, 71);
+}
+.RimgDetails>p:last-child{
+font-size: small;
+}
+.RTask1_h1{
+    padding: 0px 40px 10px 70px;
+    color: #03a9f4;
+    
+}
+
+
+
