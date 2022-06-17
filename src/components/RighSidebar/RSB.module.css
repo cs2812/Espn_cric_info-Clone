@@ -1,12 +1,13 @@
 .rightnews {
-  /* border: solid yellowgreen; */
-  width: 80%;
-  margin-left: 81px;
+
+  width: 90%;
+  margin-right: 80px;
+
 }
 
 .news {
   height: 200px;
-  /*font-size: 14px;*/
+  font-size: 15px;
   margin-top: 20px;
 }
 
@@ -18,7 +19,7 @@
   margin: auto;
   margin-top: 20px;
   text-align: justify;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+  box-shadow: rgba(122, 54, 54, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 

@@ -1,7 +1,7 @@
 .leftnews {
     /* border: solid rgb(18, 208, 50); */
     width: 80%;
-    margin-left: 60px;
+    margin-left: 40px;
   }
   
   .leftSide_1stdiv {
@@ -45,10 +45,10 @@
     border: 1px solid white;
     border-radius: 20px;
     height: 150px;
-    width: 300px;
+    width: 280px;
     margin: auto;
     margin-top: 20px;
-    text-align: left;
+    
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
       rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   }
@@ -57,7 +57,7 @@
     border: 1px solid white;
     border-radius: 20px;
     height: 230px;
-    width: 300px;
+    width: 280px;
     margin: auto;
     margin-top: 20px;
     text-align: left;

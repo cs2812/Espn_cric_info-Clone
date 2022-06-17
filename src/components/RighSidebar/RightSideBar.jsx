@@ -16,7 +16,7 @@ const RightSideBar = () => {
           <hr />
         </div>
         <div className={styles.news}>
-          <li style={{ marginTop: "10px" ,marginLeft:"10px" }}>
+          <li style={{ marginTop: "10px",marginLeft:"10px" }}>
             <a href="#">Houghton appointed Zimbabwe coach</a>
           </li>
           <li style={{ marginTop: "10px" ,marginLeft:"10px"}}>

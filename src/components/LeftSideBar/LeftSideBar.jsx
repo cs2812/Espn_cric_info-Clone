@@ -129,7 +129,7 @@ const LeftSideBar = () => {
           <h3>ESPNcricinfo Apps</h3>
         </div>
         <hr />
-        <div style={{ marginLeft: "20px" }}>
+        <div style={{ marginLeft: "10px" }}>
           <li style={{ marginTop: "10px" }}>
             <a href="#">Android App</a>
           </li>
