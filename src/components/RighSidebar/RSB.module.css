@@ -1,5 +1,231 @@
-.rightnews{
-    border: solid yellowgreen;
-    width: 80%;
-    margin-left: 81px;
+.rightnews {
+
+  width: 90%;
+  margin-right: 80px;
+
+}
+
+.news {
+  height: 200px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.rightSide_1stdiv {
+  border: 1px solid white;
+  border-radius: 20px;
+  /* height: 300px; */
+  width: 340px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: justify;
+  box-shadow: rgba(122, 54, 54, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: lightblue;
+  text-decoration: none;
+}
+
+.articleContainer {
+  width: 320px;
+  height: 230px;
+  border: 1px solid white;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.article1 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/100300/100351.6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  margin-left: 20px;
+}
+
+.article1:hover {
+  transform: scale(1.2);
+}
+
+.article2 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/340200/340244.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.article2:hover {
+  transform: scale(1.2);
+}
+
+.article3 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/314400/314493.9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.article3:hover {
+  transform: scale(1.2);
+}
+
+.article4 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/340800/340832.6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.article4:hover {
+  transform: scale(1.2);
+}
+
+.article5 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/331700/331725.6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.article5:hover {
+  transform: scale(1.2);
+}
+
+.article6 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/328000/328052.6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.article6:hover {
+  transform: scale(1.2);
+}
+
+.article7 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/335600/335634.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.article7:hover {
+  transform: scale(1.2);
+}
+
+.article8 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/340500/340515.6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.article8:hover {
+  transform: scale(1.2);
+}
+
+.article9 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/263000/263043.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.article9:hover {
+  transform: scale(1.2);
+}
+
+.article10 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/335100/335169.6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.article10:hover {
+  transform: scale(1.2);
+}
+
+.article11 {
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  margin-left: 20px;
+  background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/236100/236127.4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  border-radius: 20px;
+}
+
+.article11:hover {
+  transform: scale(1.2);
 }
