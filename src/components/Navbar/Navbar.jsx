@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from "./Navbar.module.css"
 const Navbar = () => {
+  
+
   return (
     <div class={styles.mainnav}><div class={styles.navbar}>
             <img class={styles.navimg} src="https://wassets.hscicdn.com/static/images/logo.png" alt="" />
-            <div> Live Scores</div>
+            <div  > Live Scores</div>
             <div>Series</div>
             <div>Teams</div>
             <div> News</div>

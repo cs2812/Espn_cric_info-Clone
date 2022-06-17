@@ -9,7 +9,7 @@ import SeriesHome from "../Routes/SeriesHome/SeriesHome";
 import Video from "../Routes/Video/Video";
 import styles from "./home.module.css";
 import Teams from "../components/Teams/Teams"
-
+import Score from "../components/NavbarLive/score";
 const Home = () => {
   return (
     <div className={styles.container}>
@@ -26,7 +26,8 @@ const Home = () => {
       <div>
         <Footer />
       </div> */}
-      <Teams/>
+      {/* <Teams/> */}
+      <Score />
     </div>
   );
 };
