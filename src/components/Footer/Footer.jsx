@@ -5,7 +5,7 @@ import "./Footer.css"
 function Footer() {
   return (
     <div id='footer'>
-      <center><table className='table-nav'>
+      <table className='table-nav'>
         <tr>
           <th><b>Key Series</b></th>
           <th><b>Quick Links</b></th>
@@ -59,7 +59,7 @@ function Footer() {
         <tr><td>World Test Championship</td></tr>
         <tr><td>World Cup Super League</td></tr>
         
-      </table></center>
+      </table>
       
     {/* 
    

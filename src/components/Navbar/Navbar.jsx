@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./Navbar.module.css"
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div class={styles.mainnav}><div class={styles.navbar}>
@@ -8,7 +9,9 @@ const Navbar = () => {
             <div>Series</div>
             <div>Teams</div>
             <div> News</div>
-            <div>Features</div>
+            <div>
+            Features
+            </div>
             <div> Videos</div>
             <div>Stats</div>
             <div> Editions</div>
