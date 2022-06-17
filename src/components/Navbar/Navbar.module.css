@@ -1,21 +1,18 @@
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .navbar{
     background-color: rgb(3,169,244);
     color: white;
     display: flex;
-    gap: 3%;
+    gap: 1%;
     font-size: 20px;
-    width: 100%;
+    width: 98.5%;
     position: fixed;
     z-index: 1;
+    margin-left: 10px;
     
-}
-.navimg>Link{
-    text-decoration: none;
-    color: white;
 }
 
 .navbar>div{
@@ -28,6 +25,8 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     cursor: pointer;
+    margin-left: 20px;
+    
 }
 
 .mainnav{
