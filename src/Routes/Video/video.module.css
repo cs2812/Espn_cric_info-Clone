@@ -1,6 +1,11 @@
 .container{
     padding-left: 50px;
     padding-right: 50px;
+    
+}
+.extra{
+    width: 100%;
+    height: 60px;
 }
 
 .V_firstdiv{

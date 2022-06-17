@@ -7,7 +7,8 @@ import styles from "./SH.module.css"
 
 const SeriesHome = () => {
   return (
-    <>
+    <div>
+   <div className={styles.Snav} ></div>
     <Snavbar/>
     <div className={styles.Shome} >
         <S_left/>
@@ -15,7 +16,7 @@ const SeriesHome = () => {
         <S_right/>
       
     </div>
-    </>
+    </div>
    
   )
 }
