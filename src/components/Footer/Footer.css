@@ -1,9 +1,10 @@
 #footer{
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.589) 0px 2px 8px 0px;
     width:90%;
     border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.397);
+    /* border: 1px solid rgba(0, 0, 0, 0.397); */
     margin: auto;
+    margin-top: 20px;
     
     
 }
