@@ -6,20 +6,21 @@ function Footer() {
   return (
     <div id='footer'>
       <table className='table-nav'>
-        <tr>
+        <thead><tr>
           <th><b>Key Series</b></th>
           <th><b>Quick Links</b></th>
           <th><b>ESPNcricinfo Apps</b></th>
           <th><b>Follow ESPNcricinfo</b></th>
           <th><b>ESPN Sites</b></th>
-        </tr>
-        <tr>
+        </tr></thead>
+        <tbody><tr>
           <td>India v South Africa</td>
           <td>T20 Time Out</td>
           <td>Android App</td>
           <td>Facebook</td>
           <td>The Cricket Monthly</td>
         </tr>
+        
         <tr>
           <td>England v New Zealand</td>
           <td>T20 Time Out Hindi</td>
@@ -58,6 +59,7 @@ function Footer() {
         <tr><td>Womens's Championship</td></tr>
         <tr><td>World Test Championship</td></tr>
         <tr><td>World Cup Super League</td></tr>
+        </tbody>
         
       </table>
       
