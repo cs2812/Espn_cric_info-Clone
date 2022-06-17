@@ -8,34 +8,28 @@ import RightSideBar from "../components/RighSidebar/RightSideBar";
 import SeriesHome from "../Routes/SeriesHome/SeriesHome";
 import Video from "../Routes/Video/Video";
 import styles from "./home.module.css";
-import Teams from "../components/Teams/Teams"
+import Teams from "../components/Teams/Teams";
 import Score from "../components/NavbarLive/score";
 const Home = () => {
   return (
-    <div className={styles.container}> 
-        <div>
-            <LiveScore/> 
-           
-        </div>
-        <div className={styles.homeflex} >
-            <LeftSideBar/>
-            <News/>
-            <RightSideBar/>
-        </div>
-        
-        <div>
-            <Footer/>
-        </div>
+    <div className={styles.container}>
+      <div>
+        <Navbar />
+        <LiveScore />
+      </div>
+      <div className={styles.homeflex}>
+        <LeftSideBar />
+        <News />
+        <RightSideBar />
+      </div>
 
-<<<<<<< HEAD
       <div>
         <Footer />
-      </div> */}
+      </div>
       {/* <Teams/> */}
-      <Score />
-=======
-  
->>>>>>> 0dd3f1237213437f78795427bd31ca0cfdf30251
+      <div>
+        <Score />
+      </div>
     </div>
   );
 };
