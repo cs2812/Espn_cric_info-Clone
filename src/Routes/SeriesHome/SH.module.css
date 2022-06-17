@@ -1,5 +1,9 @@
 .Shome{
 display: grid;
 grid-template-columns: repeat(3,1fr);
-margin-top: 1px;
+margin-top: 40px;
+}
+.Snav{
+    width: 100px;
+    height: 60px;
 }

@@ -1,10 +1,16 @@
 /* Series Navbar-----------> */
 .Snavbar{
-    border: solid blueviolet;
+    /* border: solid blueviolet; */
     display: flex;
     gap: 20px;
-  height: 40px;
+  height: 45px;
   padding-left: 10px;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  top: 50px;
+  
    
 }
 .Snavbar>p{

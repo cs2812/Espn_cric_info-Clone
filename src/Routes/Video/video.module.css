@@ -1,6 +1,11 @@
 .container{
     padding-left: 50px;
     padding-right: 50px;
+    
+}
+.extra{
+    width: 100%;
+    height: 60px;
 }
 
 .V_firstdiv{
@@ -43,21 +48,6 @@
     color: rgb(160, 160, 209);
 }
 
-/* .art3Img1{
-    width: 100%;
-    height: 100px;
-    background: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_240/esci/media/motion/2022/0612/dm_220612_INET_CRIC_indvsa2022_time_out_ind_batting_non-branded_GLOBAL/dm_220612_INET_CRIC_indvsa2022_time_out_ind_batting_non-branded_GLOBAL.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all 1s;
-    border-radius: 15px;
-
-}
-.art3Img1:hover{
-    transform: scale(1.2);
-} */
-
 .Feat{
     display: flex;
     justify-content: space-between;
@@ -71,7 +61,6 @@
     gap: 20px;
     box-sizing: border-box;
   
-
 }
 
 .V_secondDiv>div{
@@ -110,8 +99,6 @@
     margin-top: -15px;
 }
 
-
-
 .VhtirdDiv{
 display: grid;
 grid-template-columns: repeat(7,1fr);
@@ -127,13 +114,118 @@ gap: 10px;
     overflow: hidden;
 
     -moz-box-shadow:    inset 0 0 20px #000000;
-   -webkit-box-shadow: inset 0 0 20px #000000;
-   box-shadow:         inset 0 0 20px #000000;
-
-   
+    -webkit-box-shadow: inset 0 0 20px #000000;
+     box-shadow:         inset 0 0 20px #000000;
 
 }
 .VT1>img{
     width: 100%;
     height: 100%;
 }
+.VfourDiv{
+    display: flex;
+    gap: 10px;
+    /* border: solid; */
+    height: 600px;
+}
+
+
+.Vfour1Div1{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: solid; */
+    gap: 20px;
+    justify-content: space-around;
+    width: 98%;
+    height: 50%;
+}
+.Vfour1Div1>div{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+padding: 10px;
+}
+.Vf_img{
+height: 50%;
+border-radius: 15px;
+overflow: hidden;
+
+
+
+}
+.Vf_img>img{
+    width: 100%;
+    height: 100%;
+transition: all 1s;
+
+}
+.Vf_img>img:hover{
+        transform: scale(1.1);
+}
+
+.Vfour2Div{
+    /* border: solid; */
+    padding-left:30px ;
+    padding-right: 30px;
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
+.R_Task1{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 10px;
+    width: 130%;
+    margin-left: -41px;
+    
+    }
+    .Rdiv1{
+    border-bottom: solid rgb(189, 181, 181);
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-top: 9px;
+    
+    
+    }
+    .Rdiv2{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .Rimg{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-left: 10px;
+    }    
+    .Rimg>img{
+        width: 100%;
+        height: 100%;
+    }
+    .RimgDetails{
+    
+    }
+    .RimgDetails>p:first-child{
+        font-weight: bold;
+        font-size: smaller;
+        color: rgb(83, 71, 71);
+    }
+    .RimgDetails>p:last-child{
+    font-size: small;
+    }
+    .RTask1_h1{
+        padding: 0px 40px 10px 70px;
+        color: #03a9f4;
+        
+    }
+    

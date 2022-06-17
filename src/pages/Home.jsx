@@ -12,22 +12,30 @@ import Teams from "../components/Teams/Teams"
 import Score from "../components/NavbarLive/score";
 const Home = () => {
   return (
-    <div className={styles.container}>
-      {/* <div>
-        <Navbar />
-        <LiveScore />
-      </div>
-      <div className={styles.homeflex}>
-        <LeftSideBar />
-        <News />
-        <RightSideBar />
-      </div>
+    <div className={styles.container}> 
+        <div>
+            <LiveScore/> 
+           
+        </div>
+        <div className={styles.homeflex} >
+            <LeftSideBar/>
+            <News/>
+            <RightSideBar/>
+        </div>
+        
+        <div>
+            <Footer/>
+        </div>
 
+<<<<<<< HEAD
       <div>
         <Footer />
       </div> */}
       {/* <Teams/> */}
       <Score />
+=======
+  
+>>>>>>> 0dd3f1237213437f78795427bd31ca0cfdf30251
     </div>
   );
 };
