@@ -13,10 +13,10 @@ import Score from "../components/NavbarLive/score";
 const Home = () => {
   return (
     <div className={styles.container}>
-      <div>
-        <Navbar />
+      {/* <div>
+        
         <LiveScore />
-      </div>
+      </div> */}
       <div className={styles.homeflex}>
         <LeftSideBar />
         <News />
@@ -27,9 +27,9 @@ const Home = () => {
         <Footer />
       </div>
       {/* <Teams/> */}
-      <div>
+      {/* <div>
         <Score />
-      </div>
+      </div> */}
     </div>
   );
 };
