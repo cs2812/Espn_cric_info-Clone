@@ -1,19 +1,19 @@
-import React from 'react'
-import Footer from '../components/Footer/Footer'
-import LeftSideBar from '../components/LeftSideBar/LeftSideBar'
-import LiveScore from '../components/Live/LiveScore'
-import Navbar from '../components/Navbar/Navbar'
-import News from '../components/News/News'
-import RightSideBar from '../components/RighSidebar/RightSideBar'
-import SeriesHome from '../Routes/SeriesHome/SeriesHome'
-import Video from '../Routes/Video/Video'
-import styles from "./home.module.css"
+import React from "react";
+import Footer from "../components/Footer/Footer";
+import LeftSideBar from "../components/LeftSideBar/LeftSideBar";
+import LiveScore from "../components/Live/LiveScore";
+import Navbar from "../components/Navbar/Navbar";
+import News from "../components/News/News";
+import RightSideBar from "../components/RighSidebar/RightSideBar";
+import SeriesHome from "../Routes/SeriesHome/SeriesHome";
+import Video from "../Routes/Video/Video";
+import styles from "./home.module.css";
+import Teams from "../components/Teams/Teams"
 
 const Home = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container}> 
         <div>
-           
             <LiveScore/> 
            
         </div>
@@ -26,10 +26,10 @@ const Home = () => {
         <div>
             <Footer/>
         </div>
-        
-      
-    </div>
-  )
-}
 
-export default Home
+  
+    </div>
+  );
+};
+
+export default Home;
