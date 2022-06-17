@@ -3,7 +3,7 @@ import styles from "./Feature.module.css"
 
 function news() {
   return (
-    
+    <div className={styles.mainfooter}>
     <div className={styles.feature}>
       Latest News
       <hr />
@@ -106,6 +106,128 @@ function news() {
         </div>
         
       </div>
+    </div>
+    <div>
+    <div className={styles.footerside}>
+        Most Read
+        <hr />
+        <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340900/340985.10.jpg" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>Hardik Pandya to Captain India In ireland T20Is Rahul tripathi Gets maiden call-Ups</h1>
+              <p>15-June-2022 . ESPNcricinfo Staff</p>
+          </div>
+          
+        </div>
+        <div>
+          <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340000/340017.10.jpg" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>TV coverage in Bangladesh Unlikely for Antigue Test</h1>
+              <p>22 Hrs ago . Mohammad isam</p>
+          </div>
+          
+        </div>
+        <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340800/340868.10.jpg" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>Root Rises to No.1 in Test Batting ranking ;imam moves past Kohali to No. 2 in ODI Charts</h1>
+              <p>15-June-2022 . ESPNcricinfo Staff</p>
+          </div>
+         
+        </div>
+        <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338400/338495.10.jpg" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>Jamie Overton added to England squad for Headingley Test vs New Zealand</h1>
+              <p>16-June-2022 . Vithushan Ehanasarj</p>
+          </div>
+          
+        </div>
+        <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/341000/341006.10.jpg" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>Ben Strokes ' England </h1>
+              <p>15-June-2022 . ESPNcricinfo Staff</p>
+          </div>
+          
+        </div>
+    </div>
+    
+        </div>
+
+
+
+
+        <div className={styles.footerside}>
+        Writers
+        <hr />
+        <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://wassets.hscicdn.com/static/images/headshot_fallback.svg" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>Hardik Pandya to Captain India In ireland T20Is Rahul tripathi Gets maiden call-Ups</h1>
+              <p>15-June-2022 . ESPNcricinfo Staff</p>
+          </div>
+          
+        </div>
+        <div>
+          <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/184300/184337.png" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>TV coverage in Bangladesh Unlikely for Antigue Test</h1>
+              <p>22 Hrs ago . Mohammad isam</p>
+          </div>
+          
+        </div>
+        <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/172300/172385.gif" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>Root Rises to No.1 in Test Batting ranking ;imam moves past Kohali to No. 2 in ODI Charts</h1>
+              <p>15-June-2022 . ESPNcricinfo Staff</p>
+          </div>
+         
+        </div>
+        <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/103600/103671.gif" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>Jamie Overton added to England squad for Headingley Test vs New Zealand</h1>
+              <p>16-June-2022 . Vithushan Ehanasarj</p>
+          </div>
+          
+        </div>
+        <div className={styles.minidivside}>
+          <div className={styles.foootersideimgdiv}>
+             <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/178600/178647.gif" alt="" />
+          </div>
+          <div className={styles.foootersidetextdiv}>
+              <h1>Ben Strokes ' England </h1>
+              <p>15-June-2022 . ESPNcricinfo Staff</p>
+          </div>
+          
+        </div>
+    </div>
+    
+        </div>
+    </div>
+        
     </div>
   )
 }

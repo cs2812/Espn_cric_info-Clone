@@ -20,11 +20,9 @@ const Home = () => {
 
       </div>
       <div className={styles.homeflex} >
-        
+        <Newshome/>
       </div>
-      <div>
-        <SeriesHome/>
-      </div>
+      
 
       <div>
         <Footer />
