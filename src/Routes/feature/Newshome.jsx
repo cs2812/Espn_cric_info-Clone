@@ -72,6 +72,7 @@ function news() {
         </div>
         
       </div>
+      <hr />
       <div>
         <div className={styles.imgdivfeature}>
           <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/335800/335808.6.jpg" alt="" />
@@ -88,6 +89,7 @@ function news() {
         </div>
         
       </div>
+      <hr />
       <div>
         <div className={styles.imgdivfeature}>
           <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/341100/341121.6.jpg" alt="" />

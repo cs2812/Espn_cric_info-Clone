@@ -9,6 +9,7 @@ import SeriesHome from '../Routes/SeriesHome/SeriesHome'
 import Video from '../Routes/Video/Video'
 import styles from "./home.module.css"
 import Newshome from "../Routes/feature/Newshome"
+import Feature from '../Routes/feature/Feature'
 
 const Home = () => {
   return (
@@ -19,8 +20,10 @@ const Home = () => {
 
       </div>
       <div className={styles.homeflex} >
-        <Newshome/>
-        <RightSideBar/>
+        
+      </div>
+      <div>
+        <SeriesHome/>
       </div>
 
       <div>

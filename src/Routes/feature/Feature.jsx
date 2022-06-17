@@ -72,6 +72,7 @@ function Feature() {
         </div>
         
       </div>
+      <hr />
       <div>
         <div className={styles.imgdivfeature}>
           <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/341000/341070.6.jpg" alt="" />
@@ -86,8 +87,8 @@ function Feature() {
             15 Jun 2022 . Srinidhi Ramanujan
           </h5>
         </div>
-        
       </div>
+      <hr />
       <div>
         <div className={styles.imgdivfeature}>
           <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/341000/341006.6.jpg" alt="" />

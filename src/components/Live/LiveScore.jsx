@@ -16,28 +16,28 @@ function LiveScore() {
 
   const [count, setCount] = useState([]);
   console.log("count", count)
-  useEffect(() => {
-    if (count.length === 0) {
+  // useEffect(() => {
+  //   if (count.length === 0) {
 
 
-      const options = {
-        method: 'GET',
-        headers: {
-          'X-RapidAPI-Key': 'c56554ae32mshecc5ce4686ba3b3p18e9a1jsnce6b5e35a784',
-          'X-RapidAPI-Host': 'livescore6.p.rapidapi.com'
-        }
-      };
+  //     const options = {
+  //       method: 'GET',
+  //       headers: {
+  //         'X-RapidAPI-Key': 'c56554ae32mshecc5ce4686ba3b3p18e9a1jsnce6b5e35a784',
+  //         'X-RapidAPI-Host': 'livescore6.p.rapidapi.com'
+  //       }
+  //     };
 
-      fetch('https://livescore6.p.rapidapi.com/matches/v2/list-live?Category=cricket', options)
-        .then(response => response.json())
-        .then(response => {
-          console.log(response.Stages)
-          setCount(response.Stages)
-        }
-        )
-        .catch(err => console.error(err));
-    }
-  }, [count])
+  //     fetch('https://livescore6.p.rapidapi.com/matches/v2/list-live?Category=cricket', options)
+  //       .then(response => response.json())
+  //       .then(response => {
+  //         console.log(response.Stages)
+  //         setCount(response.Stages)
+  //       }
+  //       )
+  //       .catch(err => console.error(err));
+  //   }
+  // }, [count])
 
 
   console.log(count[0])
