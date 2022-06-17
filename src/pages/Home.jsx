@@ -12,21 +12,22 @@ import Teams from "../components/Teams/Teams"
 
 const Home = () => {
   return (
-    <div className={styles.container}>
-      {/* <div>
-        <Navbar />
-        <LiveScore />
-      </div>
-      <div className={styles.homeflex}>
-        <LeftSideBar />
-        <News />
-        <RightSideBar />
-      </div>
+    <div className={styles.container}> 
+        <div>
+            <LiveScore/> 
+           
+        </div>
+        <div className={styles.homeflex} >
+            <LeftSideBar/>
+            <News/>
+            <RightSideBar/>
+        </div>
+        
+        <div>
+            <Footer/>
+        </div>
 
-      <div>
-        <Footer />
-      </div> */}
-      <Teams/>
+  
     </div>
   );
 };

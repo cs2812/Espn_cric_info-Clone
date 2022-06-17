@@ -1,15 +1,21 @@
+body{
+    overflow-x: hidden;
+}
+
 .navbar{
     background-color: rgb(3,169,244);
     color: white;
     display: flex;
     gap: 3%;
     font-size: 20px;
-    flex-wrap: wrap;
-    width: 98.5%;
-    margin: auto;
+    width: 100%;
     position: fixed;
     z-index: 1;
-    top: -5px;
+    
+}
+.navimg>Link{
+    text-decoration: none;
+    color: white;
 }
 
 .navbar>div{

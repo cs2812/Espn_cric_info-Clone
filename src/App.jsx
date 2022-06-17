@@ -1,14 +1,30 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+
 import './App.css'
+import Navbar from './components/Navbar/Navbar'
 import Home from "./pages/Home"
+import {Routes,Route } from "react-router-dom"
+import LiveScore from './components/Live/LiveScore'
+import SeriesHome from './Routes/SeriesHome/SeriesHome'
+import Video from './Routes/Video/Video'
 function App() {
   
 
   return (
     <div className="App">
       
-      <Home/>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/' element={<LiveScore/>}></Route>
+        <Route path='/series' element={<SeriesHome/>}></Route>
+        {/* <Route path='/teams' element={<Teams/>}></Route> */}
+        {/* <Route path='/news' element={<News/>}></Route> */}
+        {/* <Route path='/features' element={<Features/>}></Route> */}
+        <Route path='/videos' element={<Video/>}></Route>
+
+
+      </Routes>
+     
     </div>
   )
 }

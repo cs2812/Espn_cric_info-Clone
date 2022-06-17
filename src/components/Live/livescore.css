@@ -1,9 +1,9 @@
 .live-slider {
 
-    width: 1300px;
+    width: 96%;
     
     margin: auto;
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 .live-slider>h1 {
@@ -15,11 +15,15 @@
 
 .slider-div-main {
     display: flex;
+    /* border: solid black; */
+    border-radius: 20px;
+    /* overflow: hidden; */
 }
 
 #live-slider {
     background: rgb(2, 154, 224);
     color: white;
+    /* border: solid black; */
    
 }
 
@@ -27,10 +31,11 @@
     background-color: white;
     border: 5px solid rgb(2, 154, 224);
     color: black;
+
     text-align: left;
     height: 180px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: px;
     
     
 }
