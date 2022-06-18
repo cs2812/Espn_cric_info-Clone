@@ -3,7 +3,7 @@
     padding: 10px;
     font-size: 25px;
     font-weight: bolder;
-    width: 200%;
+    width: 70%;
     margin-top: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 20px;
@@ -51,12 +51,67 @@
     font-size: 15px;
     font-weight: normal;
     width: 450px;
-    color: rgba(0, 0, 0, 0.76);
+    color: grey;
 }
 
 .textdivfeature>h5{
     font-size: 13px;
     font-weight: normal;
     width: 450px;
-    color: rgba(0, 0, 0, 0.76);
+    color: grey;
 }
+
+.footerside{
+    
+    width: 80%;
+   
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.mainfooter{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.minidivside{
+    display: flex;
+    overflow: hidden;
+    margin: 5px;
+}
+
+
+.foootersideimgdiv{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 75px;
+}
+
+
+.foootersideimgdiv img{
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+
+.foootersideimgdiv img:hover{
+    transform: scale(1.1);
+}
+
+.foootersidetextdiv>h1{
+font-size: 11px;
+}
+
+.foootersidetextdiv{
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    }
+
+    .foootersidetextdiv>p{
+        font-size: 8px;
+        color: grey;
+        }
