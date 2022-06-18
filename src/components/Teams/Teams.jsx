@@ -4,6 +4,7 @@ import styles from "./Teams.module.css";
 const Teams = () => {
   return (
     <>
+    <div className={styles.teamdiv}></div>
       <div style={{  height: "600px" }}>
         <div className={styles.title}>
           <h3>POPULAR INTERNATIONAL TEAMS</h3>

@@ -4,6 +4,7 @@ import styles from "./New.module.css";
 const News = () => {
   return (
     <div className={styles.News}>
+      <div className={styles.newdiv}></div>
       <div className={styles.first}>
         <a href="https://www.google.com/search?q=mumbai+vs+uttar+pradesh+scorecard&rlz=1C1CHBD_enIN988IN989&oq=mumbai+vs+uttar+pradesh+scor&aqs=chrome.0.0i3j69i57j0i22i30j0i390l2.6546j0j15&sourceid=chrome&ie=UTF-8#sie=m;/g/11s1sxbmq5;5;/m/04rnbt;dt;fp;1;;">
           <span className={styles.span}>{">"}</span> Scorecard: Mumbai Vs Uttar
