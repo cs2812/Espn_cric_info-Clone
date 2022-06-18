@@ -8,6 +8,10 @@
   font-size: 15px;
 }
 
+.scorediv {
+  padding-top: 35px;
+}
+
 .slider-div-main {
   display: flex;
   /* border: solid black; */

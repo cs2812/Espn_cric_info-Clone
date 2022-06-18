@@ -8,6 +8,10 @@
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+.teamdiv{
+  padding-top: 80px;
+}
+
 .gridContainer {
   display: grid;
   width: 80%;

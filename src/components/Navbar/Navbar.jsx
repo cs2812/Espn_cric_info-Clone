@@ -1,19 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import SeriesHome from "../../Routes/SeriesHome/SeriesHome";
 import styles from "./Navbar.module.css";
 const Navbar = () => {
+
+  const navigate = useNavigate()
   let styless = {
     textDecoration: "none",
     color: "white",
     marginTop: "15px",
   };
 
+  let redirect = () => {
+    navigate("/")
+  }
   return (
     <div className={styles.mainnav}>
       <div className={styles.navbar}>
         <img
-          className={styles.navimg}
+          className={styles.navimg} onClick={redirect}
           src="https://wassets.hscicdn.com/static/images/logo.png"
           alt=""
         />
